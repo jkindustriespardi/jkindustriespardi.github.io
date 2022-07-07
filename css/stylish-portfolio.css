@@ -261,3 +261,24 @@ footer {
   bottom: 5px;
   right: 5px;
 }
+
+.product-item {
+    max-height: 480px;
+    margin-bottom: 30px;
+}
+
+.vision-quote blockquote {
+    border: none;
+    font-size: 30px;
+}
+
+.callout .content {
+    width: 75%;
+    display: inline-block;
+    text-align: center;
+    font-weight: 700;
+}
+
+.card ol {
+    font-size: 17px;
+}
