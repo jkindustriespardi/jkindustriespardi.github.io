@@ -409,7 +409,11 @@
                         </li>
                     </ul-->
                     <hr class="small">
-                    <p class="text-muted">Copyright &copy; JK Industries 2016 - 2018</p>
+                    <p class="text-muted">Copyright &copy; JK Industries 2016 - <span id="copyright-year">2022</span>
+                    </p>
+                    <script>
+                        document.querySelector('#copyright-year').innerText = new Date().getFullYear();
+                    </script>
                 </div>
             </div>
         </div>
